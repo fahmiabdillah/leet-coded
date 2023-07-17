@@ -2,10 +2,12 @@
  * @param {number} n
  * @return {string[]}
  */
-var fizzBuzz = function(n) {
+const fizzBuzz = function(n) {
+    // var result = []
     // for(let i = 0 ; i < n ; ){
     //     console.log((++i % 3 ? "" : "Fizz") + (i % 5 ? "" : "Buzz") || i)
     // }
+    // return result
     
     var result = []
 for (var i = 1 ; i < n+1; i++) {

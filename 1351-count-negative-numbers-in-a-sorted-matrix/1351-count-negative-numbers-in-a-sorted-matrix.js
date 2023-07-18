@@ -15,6 +15,9 @@ var countNegatives = function(grid)
     return count
 };
 
+
+// fungsi binarysearch
+
 // function binarySearch (arr){
 //     let left = 0;
 //     let right = arr.length - 1;
@@ -22,7 +25,7 @@ var countNegatives = function(grid)
 //     while (left <= right){
 //         let mid = Math.floor((left + right) / 2);
         
-//         if (arr[mid] > 0){
+//         if (arr[mid] < 0){
 //             right = mid - 1;
 //         } else{
 //             left = mid + 1;
